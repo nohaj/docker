@@ -1,0 +1,14 @@
+[remi-php73]
+name=Remi's PHP 7.3 RPM repository for Enterprise Linux 7 - $basearch
+#baseurl=http://rpms.remirepo.net/enterprise/7/php73/$basearch/
+#mirrorlist=https://rpms.remirepo.net/enterprise/7/php73/httpsmirror
+mirrorlist=http://cdn.remirepo.net/enterprise/7/php73/mirror
+enabled=1
+gpgcheck=0
+
+[remi]
+name=Remi's RPM repository for Enterprise Linux 7 - $basearch
+#baseurl=http://rpms.remirepo.net/enterprise/7/remi/$basearch/
+mirrorlist=http://rpms.remirepo.net/enterprise/7/remi/mirror
+enabled=1
+gpgcheck=0
